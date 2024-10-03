@@ -16,7 +16,7 @@ section.hero {
         vertical-align: bottom;
     }
 
-    &h1 span:nth-child(1),
+    & h1 span:nth-child(1),
     & h1 span:nth-child(4) {
         color: var(--snitap-sky-mid);
     }
