@@ -75,7 +75,7 @@ section.hero {
         & .shadow {
             box-shadow:
                 0 2px 5px rgb(0 0 0/ .1),
-                0 9px 9px rgb(0 0 0/ .9),
+                0 9px 9px rgb(0 0 0/ .09),
                 0 20px 12px rgb(0 0 0/ .05),
                 0 36px 15px rgb(0 0 0/ .01);
         }
@@ -105,14 +105,14 @@ section.hero {
             left: 3%;
 
             transform: translateX(200%);
-            animation: slideIn 3s ease forwards;
+            animation: slideIn 3s 200ms ease forwards;
         }
 
         & img[src*="patins"] {
             z-index: 1;
 
             transform: translateX(200%);
-            animation: slideIn 3s 200ms ease forwards;
+            animation: slideIn 3s ease forwards;
         }
 
         & img[src*="stars-1"] {
